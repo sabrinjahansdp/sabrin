@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topbar{
+    display: flex;
+    height: 3rem;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+}
+.icon2{
+    margin-left:25rem ;
+}
+
+
+.navbar{
+    display: flex;
+    height: 5rem;
+   background-color: white;
+    position: sticky;
+    top: 0;
+    color: blue;
+    padding-top: 2rem;
+    
+}
+li{
+    float: left;
+    padding-left:5rem ;
+    list-style-type: none;
+   
+}
+.hero{
+    background-image: url(./download.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15rem;
+    color: white;
+}
+.btn{
+    height: 2rem;
+    width: 8rem;
+  background-color: rgb(162, 189, 211);
+    color: white;
+    padding-top: 1rem;
+    padding: 5px;
+
+}
+.hero2{
+    display: flex;
+}
+.hero3 img{
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px;
+    padding-top: 2rem;
+    margin-left: 1rem;
+}
+.hero4{
+    margin-left: 2rem;
+    padding-top: 10rem;
+    text-align: center;
+}
+.hero4 .iconi{
+    font-size: 1rem;
+}
+.card{
+    display: flex;
+    text-align: center;
+    padding-top: 3rem;
+    margin-left: 8rem;
+    
+
+}
+.card1{
+    width: 20%;
+    height: 10rem;
+    border: 2px solid black;
+    padding-top: 3rem;
+    box-shadow: 5px 5px 5px 5px;
+}
+.card2{
+    width: 20%;
+    height: 10rem;
+    border: 2px solid black;
+    padding-top: 3rem;
+    box-shadow: 5px 5px 5px 5px;
+}
+.card3{
+    width: 20%;
+    height: 10rem;
+    border: 2px solid black;
+    padding-top: 3rem;
+    box-shadow: 5px 5px 5px 5px;
+}
+.card4{
+    width: 20%;
+    height: 10rem;
+    border: 2px solid black;
+    padding-top: 3rem;
+    box-shadow: 5px 5px 5px 5px;
+}
+.gallery{
+    margin-left: 10rem;
+    padding-top: 3rem;
+}
+.details{
+    display: flex;
+    margin-top: 2rem;
+   
+}
+.details img{
+    width: 80%;
+    border-radius: 20px;
+}
+.nav{
+    text-align: center;
+}
+.footer{
+    display: flex;
+   
+    height: 15rem;
+    background-color: darkslategray;
+    padding-top: 1rem;
+    color: white;
+    /* padding: 5rem;
+    margin: 5rem; */
+}
+.footer1{
+    width: 20%;
+    
+}
+.footer2{
+    width: 20%;
+}
+.footer3{
+    width: 20%;
+}
+.footer4{
+    width: 20%;
+}
